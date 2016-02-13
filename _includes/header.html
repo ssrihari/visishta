@@ -1,0 +1,12 @@
+<div id="header">
+  <a href="http://visishta.net/" id="logo"></a>
+  <div id="menu">
+    <div class="menu-buttons">
+      {% for item in site.menu %}
+      <div class="item documentation">
+	<a href="{{item.page}}" class="state"><span>{{item.name}}</span></a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

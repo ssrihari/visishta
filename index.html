@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div id="about" class="columns">
+  <div class="column">
+    <p> {{site.data.abstract.column_1}} </p>
+  </div>
+
+  <div class="column">
+    <p> {{site.data.abstract.column_2}} </p>
+  </div>
+
+  <div class="column rightmost">
+    <p> {{site.data.abstract.column_3}} </p>
+  </div>
+</div>
+
+<p class="question">
+What is it like for your kid to learn at Visishta?
+</p>
+
+{% for section in site.data.main_x %}
+<section class="about-section">
+  <h2 class="section-heading">{{section.name}}</h2>
+  <div class='demonstrations'>
+    {% for image in section.images %}
+    <a href='srcs/{{image.src}}'
+       class='fresco'
+       data-fresco-group={{section.name}}'
+       data-fresco-caption="{{image.caption}}">
+      <img src='srcs/{{image.src}}' alt='{{image.caption}}'/>
+    </a>
+    {% endfor %}
+  </div>
+  <p>
+    {{section.description}}
+  </p>
+</section>
+{% endfor %}
