@@ -16,20 +16,20 @@ layout: default
   </div>
 </div>
 
-<p class="question">
-What is it like for your kid to learn at Visishta?
-</p>
+<!-- <h3 class="question"> -->
+<!-- What is it like for your kid to learn at Visishta? -->
+<!-- </h3> -->
 
-{% for section in site.data.main_x %}
+{% for section in site.data.main_content %}
 <section class="about-section">
   <h2 class="section-heading">{{section.name}}</h2>
   <div class='demonstrations'>
     {% for image in section.images %}
-    <a href='srcs/{{image.src}}'
+    <a href='images/school_photos/{{image.src}}'
        class='fresco'
        data-fresco-group={{section.name}}'
        data-fresco-caption="{{image.caption}}">
-      <img src='srcs/{{image.src}}' alt='{{image.caption}}'/>
+      <img src='images/school_photos/{{image.src}}' alt='{{image.caption}}'/>
     </a>
     {% endfor %}
   </div>
