@@ -29,7 +29,7 @@ layout: default
        class='fresco'
        data-fresco-group={{section.name}}'
        data-fresco-caption="{{image.caption}}">
-      <img src='images/school_photos/{{image.src}}' alt='{{image.caption}}'/>
+      <img src="images/thumbnails/{{image.src | replace: 'jpg', 'gif' }}" alt='{{image.caption}}'/>
     </a>
     {% endfor %}
   </div>
