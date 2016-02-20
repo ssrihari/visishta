@@ -1,4 +1,4 @@
-- name: classroom-activities
+- name: Classroom Activities
   description: > #
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
   images:
@@ -29,7 +29,7 @@
     - src: "classroom-activities/8.jpg"
     - src: "classroom-activities/9.jpg"
 
-- name: celebrations
+- name: Celebrations
   description: > #
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
   images:
@@ -57,7 +57,7 @@
     - src: "celebrations/rakshabandhan-1.jpg"
     - src: "celebrations/republic-day-1.jpg"
 
-- name: color-days
+- name: Color Days
   description: > #
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
   images:
@@ -74,7 +74,7 @@
     - src: "color-days/green-day-5.jpg"
     - src: "color-days/red-day-1.jpg"
 
-- name: field-trips
+- name: Field Trips
   description: > #
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
   images:
@@ -96,7 +96,7 @@
     - src: "field-trips/rway-2.jpg"
     - src: "field-trips/rway-3.jpg"
 
-- name: parents
+- name: Parents
   description: > #
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
   images:
@@ -110,7 +110,7 @@
     - src: "parents/8.jpg"
     - src: "parents/9.jpg"
 
-- name: indoor-and-outdoor-games
+- name: Indoor and Outdoor Games
   description: > #
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
   images:
@@ -123,13 +123,13 @@
     - src: "indoor-and-outdoor-games/pool-3.jpg"
     - src: "indoor-and-outdoor-games/pool-5.jpg"
 
-- name: routine
+- name: Routine
   description: > #
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
   images:
     - src: "routine/assembly.jpg"
 
-- name: special-events
+- name: Special Events
   description: > #
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
   images:
@@ -148,7 +148,7 @@
     - src: "special-events/sports-2.jpg"
     - src: "special-events/teachers.jpg"
 
-- name: annual-day
+- name: Annual Day
   description: > #
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
   images:
