@@ -13,11 +13,13 @@ html {
 
 body {
     font-family: "calluna",serif;
-    font-size: 16px;
+    font-size: 17px;
     background-color: #646461;
     background: #fcfcfc;
     color: #333;
-    -webkit-font-smoothing: antialiased;}
+    -webkit-font-smoothing: antialiased;
+    background: url(../images/geometry2.png);
+}
 
 p { margin-bottom: 18px; }
 a { color: #808080; text-decoration: underline; outline-style: none; }
@@ -194,7 +196,7 @@ h1, h2, h3, h4, h5, h6, #menu {
     vertical-align: middle;
     width: 180px;
     height: 108px;
-    margin: 0 50px 10px 0px;
+    margin-right: 50px;
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
@@ -211,6 +213,17 @@ h1, h2, h3, h4, h5, h6, #menu {
     padding: 18px 0px;
     text-transform: uppercase;
     font-weight: bold;
+    display: inline-block;
+}
+
+.section-header {
+
+}
+
+.note {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #666;
 }
 
 .intro-section {

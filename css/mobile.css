@@ -1,0 +1,23 @@
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 640px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    #header {
+	text-align: center;
+    }
+
+    #logo {
+	margin: 0 0 20px 0;
+    }
+
+    #menu .item {
+	margin: 5px 10px;
+    }
+
+    .note {
+	display: block;
+	font-size: 14px;
+	margin: -16px 0 14px 0;
+    }
+
+}
